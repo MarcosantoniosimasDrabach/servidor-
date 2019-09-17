@@ -1,0 +1,549 @@
+@media (max-width: 480px){
+  body{ background-color: #708090;  color: white; width:100%;height:100%; margin:auto;}
+}
+
+#wrapper {
+   position: center;
+    padding-top: 0px;                           
+    width: 610px;
+    height: 1200px;
+ margin-right: auto;
+  margin-top: 0;
+  margin-left: auto;
+        font-size: 20px;
+        color: DimGrey;
+        text-align: center;
+        font-family: arial;
+        background-color: #DCDCDC; 
+        text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+      border-radius: 35px;
+ box-shadow: -5px -10px 30px #900, 6px 9px 15px #090;
+-webkit-box-shadow: -5px -10px 30px #900, 6px 9px 15px #090;
+-moz-box-shadow: -5px -10px 30px #900, 6px 9px 15px #090;
+ border: 10px  ridge;
+
+}
+  #painel1 {
+  position: relative;
+  right: -10px;
+  top: 20px;
+    border-radius: 35px;
+    border: 4px  ridge;
+    width:  550px;
+    height: 150px; 
+   color: #696969;
+    border-color:RosyBrown;/*cor borda */
+   text-align: center-right;
+   font-family: arial;
+    text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           background-color:#BEBEBE;
+           font-size:  20px; 
+}
+#display0 {
+  position: relative;
+  right: -60px;
+  top: 10px;
+     border-radius:12px 12px 12px 12px;
+     border: 6px  ridge;
+   width: 410px;
+    height: 100px; 
+   color: red;
+   text-align: center-right;
+   font-family: arial;
+   text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           background-color: #00FF00;
+           font-size:  17px; 
+font-family:Jazz LET, fantasy;
+}
+#display1 {
+  position: relative;
+  right: -60px;
+  top: 10px;
+  border-radius:12px 12px 12px 12px;
+    border: 6px  ridge;
+    width: 410px;
+    height: 100px; 
+   color: red;
+   text-align: center-right;
+  font-family: arial;
+   text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           background-color: #00FF00;
+           font-size:  17px; 
+font-family:Jazz LET, fantasy;
+}
+#display2 {
+  position: relative;
+  right: -60px;
+  top: 10px;
+  border-radius:12px 12px 12px 12px;
+    border: 6px  ridge;
+    width: 410px;
+    height: 100px; 
+   color: red;
+   text-align: center-right;
+   font-family: arial;
+   text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           background-color: #00FF00;
+           font-size:  17px; 
+font-family: Jazz LET, fantasy;
+}
+#painel2 {
+  position: relative;
+  right: -10px;
+  top: 30px;
+    border-radius: 35px;
+   border: 4px  ridge;;
+    width:  550px;
+    height: 150px; 
+     border-color:RosyBrown;/*cor borda */
+   color: #696969;
+  font-family: arial;
+   text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   text-align: center-right;
+           background-color:#BEBEBE;
+           font-size:  20px; 
+}
+#painel_principal {
+  position: relative;
+  right: -10px;/*recuo da direita para a esquerda*/
+  top: 0px;/*recuo de parte de cima*/
+    border-radius: 35px;/*aredondamento canto canvas*/
+    border: 6px  ridge;/*cor borda*/
+    width: 574px;/*largura*/
+    height: 555px;/*altura*/ 
+     border-color:RosyBrown;/*cor borda */
+   color: DimGrey;/*cor texto*/
+   text-align: center-right;
+   font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+ 
+           background-color:  LightGray;/*cor fundo*/
+           font-size:  20px;/*tamanho caixa texto*/ 
+}
+#painel3{
+ position: relative;
+  right: -10px;
+  top: 40px;
+    border: 4px  ridge;;/*estilo borda */
+    border-radius: 35px;/*angulo borda*/
+    width: 550px;
+    height: 150px; 
+  text-shadow: #600 1px 2px 5px;
+   color: DimGrey;/*cor borda */
+    border-color:RosyBrown;/*cor borda */
+   text-align: center-right;
+     font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  20px;
+      background-color:#BEBEBE;/*cor fundo  */
+
+
+}
+
+#painel_botoes{
+ position: relative;
+  right: -10px;
+  top: 1px;
+    border: 4px  ridge;;/*estilo borda */
+    border-radius: 35px;/*angulo borda*/
+    width: 550px;
+    height: 225px; 
+  text-shadow: #600 1px 2px 5px;
+   color: DimGrey;/*cor borda */
+    border-color:RosyBrown;/*cor borda */
+   text-align: center-right;
+     font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  20px;
+      background-color:#BEBEBE;/*cor fundo  */
+
+
+}
+
+#tabela{
+    width:100%;
+    border:solid 4px;
+    text-align:left;
+    border-collapse:collapse;
+    border-color: #FFA500;
+    background-color:#00F5FF;
+      text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+     font-size:  16px;
+}
+ 
+#img01{
+ position: relative;
+  right: 60px;
+  top: 20px;
+ background-size:contain;
+ background-repeat:no-repeat;
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 40px;
+  height: 40px; 
+  boder: transparent;
+}
+#img02{
+ position: relative;
+  right: -118px;
+  top: -40px;
+ background-size:contain;
+ background-repeat:no-repeat;
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 40px;
+  height: 40px; 
+  boder: transparent;
+}
+ 
+#estado_lampada{
+position:relative;
+ right: 190px;
+ top:6px;
+    text-align:left;
+    background-color:#BEBEBE;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+    width:300;
+  hight:200; 
+}
+#estado_lampada1{
+position:absolute;
+ right: 225px;
+ top:15px;
+    text-align:left;
+    background-color:#BEBEBE;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+    width:300;
+  hight:200; 
+}
+
+#painel_principal_inferior{
+ position: relative;
+  right: -10px;
+  top: 10px;
+    border: 6px  ridge;;/*estilo borda */
+    border-radius: 35px;/*angulo borda*/
+    border-color:RosyBrown;
+    width: 574px;
+    height: 561px; 
+  text-shadow: #600 1px 2px 5px;
+   color: DimGrey;/*cor borda */
+   text-align: center-right;
+     font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  17px;
+      background-color:LightGray;/*cor fundo  */
+
+
+}
+#estado_lampada2{
+position:absolute;
+ right: 40px;
+ top:15px;
+    text-align:left;
+    background-color:#BEBEBE;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+    width:300;
+  hight:200; 
+}
+#estado_lampada3{
+position:absolute;
+ right: 40px;
+ top:40px;
+    text-align:left;
+    background-color:#BEBEBE;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+    width:300;
+  hight:200; 
+}
+#evento_botao{
+position: relative;
+    right: 10px;
+    top: 10px;
+    }
+    
+    
+ #evento_botao1{
+position: relative;
+    right: -170px;
+    top: -48px;
+    }
+
+
+#botao
+{
+position: relative;
+    right: -10px;
+    top: 20px;
+   width: 200px;
+    height: 256px;
+    }
+#button{
+    position: relative;
+    right: -80px;
+    top: 0px;
+   width: 100px;
+    height: 290px;
+}
+
+.button{
+
+    -moz-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  -webkit-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:22px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 17px #81a37c;
+    width: 60px;
+    text-align:center;
+    font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  22px;
+ background-color:#00BFFF;
+}
+
+.button:hover {
+  background-color:#8B0000;
+}
+.button:active {
+  position:relative;
+    background-color:#00BFFF;
+  top:1px;
+}
+#button1{
+    position: relative;
+    right: -80px;
+    top: 0px;
+   width: 100px;
+    height: 290px;
+}
+
+.button1{
+
+    -moz-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  -webkit-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:22px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 17px #81a37c;
+    width: 60px;
+    text-align:center;
+    font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  22px;
+ background-color:#00BFFF;
+}
+
+.button1:hover {
+  background-color:#8B0000;
+}
+.button1:active {
+  position:relative;
+    background-color:#00BFFF;
+  top:1px;
+}
+  
+  
+    html {
+     font-family: Arial;
+     display: inline-block;
+     margin: 0px auto;
+     text-align: center;
+    }
+    h5 { font-size: 1.0rem; 
+}
+    p { font-size: 3.0rem; color: blue; }
+    .units { font-size: 1.2rem; color:#838B8B;}
+#temperaturec
+{
+color:#FFFFE0;
+}
+#temperaturef0
+{
+color:#FFFFE0;
+}
+#temperaturef
+{
+color:#FFFFE0;
+}
+    .ds-labels{
+      font-size: 1.5rem;
+      vertical-align:middle;
+      padding-bottom: 17px;
+    }
+    
+    
+    
+		
+		.topbar{
+        position:absolute;
+			height:30px;
+			background:#1e343b;
+			margin-bottom:30px;
+            top:-300px;
+            right:300px;
+            
+            background-color:#BEBEBE;
+			
+		}
+		
+		/*CÓDIGO DO TUTORIAL*/
+		
+	
+		.switch{
+			width:180px;
+			height:50px;
+			margin:0 auto;
+			position:relative;
+		}
+ 
+		.switch input{
+			display:block;
+			width:100%;
+			height: 100%;
+		 
+			position:absolute;
+			top:0;
+			left:0;
+			z-index: 10;
+		 
+			opacity: 0;
+			cursor: pointer;
+		 
+		}
+ 
+		.switch label{
+			display: block;
+			width: 100%;
+			height: 100%;
+		 
+			background: -moz-linear-gradient(#750000, #B20000);
+			background: -ms-linear-gradient(#750000, #B20000);
+			background: -o-linear-gradient(#750000, #B20000);
+			background: -webkit-linear-gradient(#750000, #B20000);
+			background: linear-gradient(#750000, #B20000);
+		 
+			border-radius: 40px;
+		}
+ 
+		.switch label:after{
+			content: "";
+		 
+			position: absolute;
+			top: -10px;
+			right: -10px;
+			bottom: -10px;
+			left: -10px;
+			z-index: -1;
+		 
+			background: -moz-linear-gradient(#EEEEEE, #AAAAAA);
+			background: -ms-linear-gradient(#EEEEEE, #AAAAAA);
+			background: -o-linear-gradient(#EEEEEE, #AAAAAA);
+			background: -webkit-linear-gradient(#EEEEEE, #AAAAAA);
+			background: linear-gradient(#EEEEEE, #AAAAAA);
+		 
+			border-radius: inherit;
+		 
+		}
+ 
+		.switch label span{
+			display: block;
+			width: 60%;
+			height: 100%;
+			background: #C0C0C0;
+		 
+			position: absolute;
+			z-index: 2;
+			right: 41%;
+			top: 0;
+		 
+			background: -moz-linear-gradient(#E0E0E0, #A0A0A0);
+			background: -ms-linear-gradient(#E0E0E0, #A0A0A0);
+			background: -o-linear-gradient(#E0E0E0, #A0A0A0);
+			background: -webkit-linear-gradient(#E0E0E0, #A0A0A0);
+			background: linear-gradient(#E0E0E0, #A0A0A0);
+		 
+			border-radius: inherit;
+		 
+		}
+ 
+		.switch label span:after {
+			content: "";
+		 
+			position: absolute;
+			left: 15%;
+			top: 25%;
+		 
+			width: 70%;
+			height: 50%;
+		 
+			background: -moz-linear-gradient(#F7F7F7, #CCCCCC);
+			background: -ms-linear-gradient(#F7F7F7, #CCCCCC);
+			background: -o-linear-gradient(#F7F7F7, #CCCCCC);
+			background: -webkit-linear-gradient(#F7F7F7, #CCCCCC);
+			background: linear-gradient(#F7F7F7, #CCCCCC);
+			border-radius: inherit;
+		}
+		 
+		.switch label span:before {
+			content: "off";
+		 
+			position: absolute;
+			top: 50%;
+			margin-top: -12px;
+			right: -50%;
+		 
+			text-transform: uppercase;
+			font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 24px;
+		 
+			color: #fff;
+		 
+		}
+		 
+		.switch input:checked ~ label {
+		 
+			background: -moz-linear-gradient(#004010, #1A6600);
+			background: -ms-linear-gradient(#004010, #1A6600);
+			background: -o-linear-gradient(#004010, #1A6600);
+			background: -webkit-linear-gradient(#004010, #1A6600);
+			background: linear-gradient(#004010, #1A6600);
+		}
+		 
+		.switch input:checked ~ label span{
+			right: -2px;
+		}
+		 
+		.switch input:checked ~ label span:before {
+			content: "on"; 
+			right: 115%;
+		 
+		}
+    
